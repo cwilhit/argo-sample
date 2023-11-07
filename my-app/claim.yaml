@@ -1,1 +1,8 @@
-Test-claim
+apiVersion: demo.upbound.io/v1alpha1
+kind: Bucket
+metadata:
+  name: app-cluster-bucket
+  namespace: default
+spec:
+  parameters:
+    region: west
